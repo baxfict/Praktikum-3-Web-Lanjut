@@ -58,6 +58,8 @@ $routes->get('/about', function (){
 
 });
 $routes->get('/post', 'PostController::index');
+$routes->get('/admin', 'Template::index');
+
 
 /*
  * --------------------------------------------------------------------
